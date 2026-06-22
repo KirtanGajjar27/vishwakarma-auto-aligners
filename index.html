@@ -175,6 +175,93 @@ body{
     color:#f97316;
     margin-bottom:10px;
 }
+
+    .footer{
+    background:#0b2354;
+    color:white;
+    padding:60px 20px 20px;
+    margin-top:50px;
+    border-top:5px solid #f4b400;
+}
+
+.footer-container{
+    max-width:1200px;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    gap:30px;
+}
+
+.footer-col{
+    flex:1;
+    min-width:220px;
+}
+
+.footer-col h2,
+.footer-col h3{
+    color:#f4b400;
+    margin-bottom:15px;
+}
+
+.footer-col ul{
+    list-style:none;
+    padding:0;
+}
+
+.footer-col ul li{
+    margin-bottom:10px;
+}
+
+.footer-col a{
+    color:white;
+    text-decoration:none;
+}
+
+.footer-col a:hover{
+    color:#f4b400;
+}
+
+.footer-bottom{
+    text-align:center;
+    margin-top:40px;
+    padding-top:20px;
+    border-top:1px solid rgba(255,255,255,0.2);
+}
+
+    /* Footer Mobile Responsive */
+@media screen and (max-width:768px){
+
+    .footer-container{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .footer-col{
+        min-width:100%;
+        margin-bottom:25px;
+    }
+
+    .footer-col ul{
+        padding:0;
+    }
+
+    .footer{
+        padding:40px 20px 20px;
+    }
+
+    .footer h2{
+        font-size:24px;
+    }
+
+    .footer h3{
+        font-size:20px;
+    }
+
+    .footer-bottom{
+        font-size:14px;
+    }
+}
 </style>
 </head>
 <body>
@@ -215,7 +302,6 @@ body{
     </div>
 
 </section>
-    </section>
 
 <section class="gallery">
 
