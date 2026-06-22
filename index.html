@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Vishwakarma Auto Aligners</title>
+<title>Vishwakarma Auto Aligners | Nanapondha</title>
 
 <style>
 *{
@@ -15,100 +15,193 @@ font-family:Arial,sans-serif;
 
 body{
 background:#f5f5f5;
+color:#333;
 }
 
-.hero{
+header{
 background:#111827;
 color:white;
 padding:80px 20px;
 text-align:center;
 }
 
-.hero h1{
-font-size:42px;
+header h1{
+font-size:48px;
 margin-bottom:10px;
 }
 
-.hero p{
-font-size:18px;
+header p{
+font-size:20px;
+margin-bottom:20px;
 }
 
 .btn{
 display:inline-block;
-margin-top:20px;
 padding:12px 25px;
 background:#ff6b00;
 color:white;
 text-decoration:none;
 border-radius:30px;
+font-weight:bold;
+}
+
+.section{
+padding:60px 20px;
+max-width:1200px;
+margin:auto;
+}
+
+.section h2{
+text-align:center;
+margin-bottom:30px;
+}
+
+.about{
+text-align:center;
+font-size:18px;
+line-height:1.8;
 }
 
 .services{
-padding:50px 20px;
-text-align:center;
-}
-
-.cards{
 display:flex;
 flex-wrap:wrap;
-justify-content:center;
 gap:20px;
-margin-top:20px;
+justify-content:center;
 }
 
 .card{
 background:white;
 padding:25px;
-width:280px;
 border-radius:15px;
 box-shadow:0 4px 15px rgba(0,0,0,.1);
+width:300px;
+text-align:center;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.gallery img{
+width:100%;
+border-radius:15px;
+height:250px;
+object-fit:cover;
 }
 
 .contact{
 background:#111827;
 color:white;
-padding:40px 20px;
 text-align:center;
+padding:60px 20px;
+}
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px 20px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+box-shadow:0 5px 15px rgba(0,0,0,.3);
+}
+
+@media(max-width:768px){
+header h1{
+font-size:32px;
+}
 }
 </style>
 </head>
 
 <body>
 
-<section class="hero">
+<header>
 <h1>Vishwakarma Auto Aligners</h1>
-<p>Professional Wheel Alignment & Balancing Services</p>
-<a href="tel:09081102930" class="btn">Call Now</a>
+<p>Professional Wheel Alignment & Wheel Balancing Services</p>
+
+<a class="btn" href="tel:9081102930">
+📞 Call Now
+</a>
+</header>
+
+<section class="section about">
+<h2>About Us</h2>
+
+<p>
+With more than <strong>15 years of experience</strong>,
+Vishwakarma Auto Aligners provides professional wheel alignment and wheel balancing services in Nanapondha, Dharampur, Gujarat.
+</p>
+
+<p>
+Our focus is accurate alignment, smooth driving experience and increased tyre life.
+</p>
+
 </section>
 
-<section class="services">
+<section class="section">
 <h2>Our Services</h2>
 
-<div class="cards">
+<div class="services">
 
 <div class="card">
 <h3>Wheel Alignment</h3>
-<p>Accurate wheel alignment for smooth driving.</p>
+<p>Accurate computerized wheel alignment for all vehicles.</p>
 </div>
 
 <div class="card">
 <h3>Wheel Balancing</h3>
-<p>Reduce vibration and improve tyre life.</p>
+<p>Improve tyre performance and reduce vibrations.</p>
 </div>
 
 <div class="card">
 <h3>Tyre Inspection</h3>
-<p>Complete tyre health check and guidance.</p>
+<p>Complete tyre condition inspection and guidance.</p>
 </div>
+
+</div>
+</section>
+
+<section class="section">
+<h2>Our Workshop</h2>
+
+<div class="gallery">
+
+<img src="imagesshop-front.jpg.webp" alt="Shop Front">
+
+<img src="imagesworkshop.jpg.webp" alt="Workshop">
+
+<img src="imagesalignment-machine.jpg.webp" alt="Alignment Machine">
 
 </div>
 </section>
 
 <section class="contact">
+
 <h2>Contact Us</h2>
-<p>Nanapondha, Dharampur, Gujarat</p>
-<p>📞 09081102930</p>
+
+<p>📍 Nanapondha, Dharampur, Gujarat 396126</p>
+
+<br>
+
+<p>📞 9081102930</p>
+
+<br>
+
+<p>🕒 Monday - Sunday | 9:00 AM - 8:00 PM</p>
+
 </section>
+
+<a class="whatsapp"
+href="https://wa.me/919081102930"
+target="_blank">
+WhatsApp
+</a>
 
 </body>
 </html>
