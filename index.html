@@ -269,6 +269,49 @@ body{
     margin-top:50px;
     border-top:5px solid #f4b400;
 }
+    .brands{
+    background:#eef3fa;
+    padding:80px 20px;
+}
+
+.brands-text{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.brands-text h2{
+    font-size:40px;
+    color:#0f172a;
+    margin-bottom:10px;
+}
+
+.brands-container{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:25px;
+}
+
+.brand-circle{
+    width:170px;
+    height:170px;
+    background:white;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    box-shadow:0 4px 15px rgba(0,0,0,.1);
+    transition:.3s;
+}
+
+.brand-circle:hover{
+    transform:translateY(-10px);
+}
+
+.brand-circle img{
+    width:90px;
+    max-width:80%;
+}
 </style>
 </head>
 <body>
@@ -349,7 +392,45 @@ body{
 
 </section>
 
+<section class="brands">
 
+    <div class="brands-text">
+        <h2>Brands We Service</h2>
+        <p>Professional Wheel Alignment & Wheel Balancing for All Major Brands</p>
+    </div>
+
+    <div class="brands-container">
+
+        <div class="brand-circle">
+            <img src="Szuki.png" alt="Suzuki">
+        </div>
+
+        <div class="brand-circle">
+            <img src="Mahindra.webp" alt="Mahindra">
+        </div>
+
+        <div class="brand-circle">
+            <img src="tata.png" alt="Tata">
+        </div>
+
+        <div class="brand-circle">
+            <img src="hundai.png" alt="Hyundai">
+        </div>
+
+        <div class="brand-circle">
+            <img src="audi.png" alt="Audi">
+        </div>
+
+        <div class="brand-circle">
+            <img src="BMW.jpg" alt="BMW">
+        </div>
+
+    </div>
+
+</section>
+
+    <section class="features">
+    
 <footer class="footer">
 
     <div class="footer-container">
@@ -397,6 +478,8 @@ body{
     </div>
 
 </footer>
+
+        <footer class="footer">
 <a href="https://wa.me/919081102930" class="whatsapp-float" target="_blank">
     <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
 </a>
